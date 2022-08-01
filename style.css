@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    background-color: black;
+    padding: 90px;
+    margin:90px;
+}
+main .card{
+    background-color:rgb(14, 17, 17) ;
+    padding:30px;
+    margin:auto;
+    align-items: center;
+    width: 300px;
+    border-radius: 2em;
+}
+.item-a{
+    color: aliceblue;
+    word-spacing: 2px;
+}
+.item-b button{
+    word-spacing: 15px;
+    border-radius: 20px;
+    background-color:rgb(14, 17, 17);
+    color: aliceblue;
+    padding: 10px;
+    box-shadow: none;
+    margin: 10px;
+}
+.item-b :hover{
+   background-color:rgb(250, 71, 6) ;
+   transition: 0.5s;
+}
+.item-b :active{
+   background-color: gray;
+}
+.item-c button{
+    background-color: aliceblue;
+    color: rgb(250, 71, 6);
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2em;
+}
